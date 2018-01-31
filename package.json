@@ -1,0 +1,21 @@
+{
+  "name": "fizzBuzz-unit-tests",
+  "version": "1.0.0",
+  "description": "intro to unit tests",
+  "main": "index.js",
+  "ava": {
+    "verbose": "true"
+  },
+  "scripts": {
+    "test": "npm run lint && nyc ava",
+    "lint": "standard | snazzy"
+  },
+  "author": "asasmith",
+  "license": "MIT",
+  "dependencies": {
+    "ava": "^0.25.0",
+    "nyc": "^11.4.1",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  }
+}
