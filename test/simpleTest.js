@@ -1,5 +1,4 @@
 import test from 'ava'
-
 import {log} from '../src/log'
 
 test('a function is defined', t => {
@@ -17,5 +16,4 @@ test('returns hello world', t => {
   // assert that 'value' === 'expected'
   t.is(log('hello world'), 'hello world')
 })
-
 // test that arg is not a number
